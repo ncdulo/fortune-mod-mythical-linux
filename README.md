@@ -4,6 +4,17 @@ A collection of various Phate-isms and Tredixions.
 
 Installation
 ------------
+
+
+
+# Automatic
+
+Run `install.sh`.
+
+------------
+
+# Manual
+
 The `strfile` program is included with `fortune_mod` and is used to create
 the `*.dat` files used by fortune. After creating those file, you may copy
 them to your `/usr/share/fortune` directory for a system-wide install.
