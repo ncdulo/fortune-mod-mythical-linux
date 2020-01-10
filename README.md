@@ -11,6 +11,8 @@ Installation
 
 Run `install.sh`.
 
+Note: The script assumes one thing: You're in the directory that the files are in. If you aren't running `./install.sh`, you're doing it wrong.
+
 ------------
 
 # Manual
