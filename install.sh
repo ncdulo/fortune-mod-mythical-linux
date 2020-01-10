@@ -17,7 +17,7 @@ sudo cp ./off/mythical_linux.dat /usr/share/fortune/off
 
 echo "If you got non-existant errors at this point, keep the script running. You might have /usr/share/fortunes instead, this part of the script copies to there."
 
-# Copies normal and offensive fortunes and their data to /usr/share/fortune
+# Copies normal and offensive fortunes and their data to /usr/share/fortunes
 
 echo "Copying normal fortunes to /usr/share/fortunes..."
 sudo cp ./mythical_linux /usr/share/fortunes
