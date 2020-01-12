@@ -2,32 +2,36 @@ fortune-mod-mythical-linux
 --------------------------
 A collection of various Phate-isms and Tredixions.
 
-Installation
+# Installation
 ------------
+Note: The package name for `fortune` is different on a lot of systems. 
+Yours could be `fortune`, mine could be `fortune_mod`.
+When this guide refers to `fortune_mod`, replace that with your distro's
+fortune package.
 
-
-
-# Automatic
-
+Automatic
+------------
 Run `install.sh`.
-
 Note: The script assumes two things:
 
-You're in the directory that the files are in. If you aren't running `./install.sh`, you're doing it wrong.
+You're in the directory that the files are in. 
+If you aren't running `./install.sh`, you're doing it wrong.
 
 You have permissions to use `sudo`.
 
+Manual
 ------------
-
-# Manual
-
 The `strfile` program is included with `fortune_mod` and is used to create
-the `*.dat` files used by fortune. After creating those file, you may copy
+the `*.dat` files used by fortune. After creating those files, you may copy
 them to your `/usr/share/fortune` directory for a system-wide install.
+If `/usr/share/fortune` doesn't exist, you have either not installed `fortune_mod`
+or your fortunes are stored in `/usr/share/fortunes`. Check both
+`/usr/share/fortune` and `/usr/share/fortunes`.
 
 Potentially offensive fortunes are located within the `off` directory.
 Install those to the `/usr/share/fortune/off` directory and select them
-with the `-o` option to fortune.
+with the `-o` option to fortune. Remember that your version of `fortune` could
+store the fortunes at `/usr/share/fortunes` instead!
 
 #### Example
 
