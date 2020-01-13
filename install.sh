@@ -1,9 +1,9 @@
 #!/bin/bash
 # Makes and copies normal and offensive fortunes and their data to /usr/share/fortune
 echo "Running STRFile on normal fortunes..."
-strfile ./mythical_linux
+strfile mythical_linux
 echo "Running STRFile on offensive fortunes..."
-strfile ./off/mythical_linux
+strfile off/mythical_linux
 if test -d /usr/share/fortune; then
     echo "Copying normal fortunes to /usr/share/fortune..."
     sudo cp mythical_linux{,.dat} /usr/share/fortune
