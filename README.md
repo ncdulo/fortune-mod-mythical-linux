@@ -51,9 +51,9 @@ With the data files installed into your system fortune directory, they may be se
     # A little of both
     fortune mythical_linux off/mythical_linux
     
-Fortune supports many other options, such as the ability to specify the chance to display a fortune from each specified file. Check the fortune manpage for more information on specific arguments.
+`fortune` supports many other options, such as the ability to specify the chance to display a fortune from each specified file. Check the `fortune` manpage for more information on specific arguments.
 
-If the data files are not to be installed system-wide, they may be called as above as long as you are calling fortune from within the directory where the files exist.
+If the data files are not to be installed system-wide, they may be called as above as long as you are calling `fortune` from within the directory where the files exist.
 
 Acknowledgments
 ---------------
