@@ -2,7 +2,7 @@ fortune-mod-mythical-linux
 --------------------------
 A collection of various Phate-isms and Tredixions.
 
-# Installation
+Installation
 ------------
 Note: The package name for `fortune` is different on a lot of systems. 
 Yours could be `fortune`, mine could be `fortune_mod`.
