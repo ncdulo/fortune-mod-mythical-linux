@@ -2,7 +2,7 @@ fortune-mod-mythical-linux
 --------------------------
 A collection of various Phate-isms and Tredixions.
 
-# Installation
+Installation
 ------------
 Note: The package name for `fortune` is different on a lot of systems. 
 Yours could be `fortune`, mine could be `fortune_mod`.
@@ -40,6 +40,20 @@ store the fortunes at `/usr/share/fortunes` instead!
     cp mythical_linux{,.dat} /usr/share/fortune
     cp off/mythical_linux{,.dat} /usr/share/fortune/off
     
+Usage
+-----
+With the data files installed into your system fortune directory, they may be selected as follows
+
+    # Non-offensive
+    fortune mythical_linux
+    # Offensive
+    fortune off/mythical_linux
+    # A little of both
+    fortune mythical_linux off/mythical_linux
+    
+`fortune` supports many other options, such as the ability to specify the chance to display a fortune from each specified file. Check the `fortune` manpage for more information on specific arguments.
+
+If the data files are not to be installed system-wide, they may be called as above as long as you are calling `fortune` from within the directory where the files exist.
 
 Acknowledgments
 ---------------
