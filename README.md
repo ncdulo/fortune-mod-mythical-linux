@@ -1,16 +1,22 @@
-fortune-mod-mythical-linux
---------------------------
+Table of Contents:
+* [Description](#description)
+* [Installation](#installation)
+* [Installation: Automatic (via script)](#automatic)
+* [Installation: Gentoo (via overlay)](#gentoo)
+* [Installation: Manual](#manual)
+* [Usage](#usage)
+* [Acknowledgments](#acknowledgments)
+
+## Description
 A collection of various Phate-isms and Tredixions.
 
-Installation
-------------
+## Installation
 Note: The package name for `fortune` is different on a lot of systems. 
 Yours could be `fortune`, mine could be `fortune_mod`.
 When this guide refers to `fortune_mod`, replace that with your distro's
 fortune package.
 
-Automatic
-------------
+### Automatic
 Run `install.sh`.
 Note: The script assumes two things:
 
@@ -19,8 +25,11 @@ If you aren't running `./install.sh`, you're doing it wrong.
 
 You have permissions to use `sudo`.
 
-Manual
-------------
+### Gentoo
+- Install [this](https://github.com/Phate6660/overlay) overlay.
+- `emerge -atv fortune-mod-mythical-linux` </br>(a = ask, t = tree, v = verbose. None are needed, they are just my preference of options for installing packages.)
+
+### Manual
 The `strfile` program is included with `fortune_mod` and is used to create
 the `*.dat` files used by fortune. After creating those files, you may copy
 them to your `/usr/share/fortune` directory for a system-wide install.
@@ -40,8 +49,7 @@ store the fortunes at `/usr/share/fortunes` instead!
     cp mythical_linux{,.dat} /usr/share/fortune
     cp off/mythical_linux{,.dat} /usr/share/fortune/off
     
-Usage
------
+## Usage
 With the data files installed into your system fortune directory, they may be selected as follows
 
     # Non-offensive
@@ -55,8 +63,7 @@ With the data files installed into your system fortune directory, they may be se
 
 If the data files are not to be installed system-wide, they may be called as above as long as you are calling `fortune` from within the directory where the files exist.
 
-Acknowledgments
----------------
+## Acknowledgments
 These fortunes were collected from the Mythical Linux Discord server.
 Thanks goes to the original authors, without whom, there would be no
 fortunes.
