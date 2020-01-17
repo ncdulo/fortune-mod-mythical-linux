@@ -17,7 +17,6 @@ RESTRICT="mirror"
 RDEPEND="games-misc/fortune-mod"
 
 src_compile() {
-	#use offensive && cat gentoo-forums-offensive-${PV} >> gentoo-forums
 	strfile mythical_linux || die
 	use offensive && strfile off/mythical_linux || die
 }
@@ -27,6 +26,4 @@ src_install() {
 	doins mythical_linux mythical_linux.dat
 	use offensive && insinto /usr/share/fortune/off
 	use offensive && doins off/mythical_linux off/mythical_linux.dat
-	# TODO: Implement installation of offensive fortunes if the use flag
-	# is selected. Not sure if I should use two `doinst` or another way.
 }
