@@ -95,6 +95,22 @@ Phate6660: Who hurt you in your life so much that you would want to use Debian?
 %
 Phate6660: I gave up. Debian mentally broke me. It made me hate Linux for a while.
 %
+Phate6660: fdisk > cfdisk, parted
+           Oh God I just had another ptsd flashback to fucking Void.
+           I was forced to use fucking cfdisk to partition my disks.
+           I hated every second of it.
+           cfdisk is so god damn confusing, it makes no sense half the time.
+           I almost gave up on the Void install like 6 times because of it.
+           On top of being confusing, it's missing a lot of features that are available in fdisk.
+           For example, the ability to change the disk label to MBR or GPT.
+%
+Phate6660: [meme about someone calling html a programming language]
+Shardion: HTML is a markup language
+Phate6660: Yeah, but people don't seem to understand that.
+           I can't tell you how many times I've seen people call it a programming language.
+           And every time I go: "DID YOU EVER EVEN READ THE FUCKING NAME!?"
+           And they go: "...Uh............ HTML?"
+%
 Phate6660: OMG
            Look at the soliders chest
            Fucking Debian
@@ -135,4 +151,13 @@ dmt: right now I'm in the "--- when you realize you didn't do your homework and
 dmt: this sketchy guy on discord just told me to excecute a script he made.. what do?
 DrownNotably: run it with sudo
               go big or go home
+%
+Shardion: I have 8GB RAM, 15GB swap partition. Memory won't be an issue.
+Phate6660: Wha....
+           Why...
+           Are you using 15GBs on your SWAP partition?
+Shardion: I have the space.
+          Why not?
+Phate6660: Does not compute.
+Shardion: Yeah it won't with your puny 512MB swap
 %
