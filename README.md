@@ -26,8 +26,7 @@ If you aren't running `./install.sh`, you're doing it wrong.
 You have permissions to use `sudo`.
 
 ### Gentoo
-- Install [this](https://github.com/Phate6660/overlay) overlay.
-- `emerge -atv fortune-mod-mythical-linux` </br>(a = ask, t = tree, v = verbose. None are needed, they are just my preference of options for installing packages.)
+This fork is not on Phate's Gentoo overlay. Please use the `install.sh` file to install instead.
 
 ### Manual
 The `strfile` program is included with `fortune_mod` and is used to create
