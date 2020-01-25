@@ -29,7 +29,7 @@ The script has optional flags:</br>
 `h` - Display the help message.</br>
 `n` - Only install non-offensive fortunes.</br>
 `o` - Only install offensive fortunes.</br>
-Not supplying and flags will cause the script to install both non-offensive and offensive fortunes.
+Not supplying any flags will cause the script to install both non-offensive and offensive fortunes.
 
 ### Gentoo
 - Install [this](https://github.com/Phate6660/overlay) overlay.
