@@ -25,6 +25,12 @@ If you aren't running `./install.sh`, you're doing it wrong.
 
 You have permissions to use `sudo`.
 
+The script has optional flags:</br>
+`h` - Display the help message.</br>
+`n` - Only install non-offensive fortunes.</br>
+`o` - Only install offensive fortunes.</br>
+Not supplying any flags will cause the script to install both non-offensive and offensive fortunes.
+
 ### Gentoo
 - Install [this](https://github.com/Phate6660/overlay) overlay.
 - `emerge -atv fortune-mod-mythical-linux` </br>(a = ask, t = tree, v = verbose. None are needed, they are just my preference of options for installing packages.)
