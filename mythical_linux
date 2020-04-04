@@ -171,3 +171,4 @@ Arctic: does the matrix run on emacs?
 dmt: Probably not, no
 dmt: However, there exists an elisp package that will connect your emacs session to the Matrix instance.
 Dexter of Etcetera: The universe is Emacs subjectively experiencing itself
+%
