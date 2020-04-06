@@ -167,3 +167,8 @@ Shardion: Yeah it won't with your puny 512MB swap
 %
 Dexter of Ebonheart: Apt, stop yelling at me, I'm sorry
 %
+Arctic: does the matrix run on emacs?
+dmt: Probably not, no
+dmt: However, there exists an elisp package that will connect your emacs session to the Matrix instance.
+Dexter of Etcetera: The universe is Emacs subjectively experiencing itself
+%
