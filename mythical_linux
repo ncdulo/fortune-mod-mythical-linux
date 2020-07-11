@@ -13,7 +13,8 @@ Arctic: [Deleted bad joke]
 Arctic: Just use your BIOS
         OSs are for noobs
 Phate6660: Pffffft, using an OS is stupid.
-           Obviously you need to hack into the mainframe using electromagnetic waves and control technology that way. Don't forget to use a block of wood to conduct electricity better.
+           Obviously you need to hack into the mainframe using electromagnetic waves and control technology that way.
+           Don't forget to use a block of wood to conduct electricity better.
 %
 Shardion: emacs i need you
 dmt: :emacs: I'm here for you, babe.
@@ -23,6 +24,9 @@ Arctic: Imagine thinking Ubuntu was better than Fedora
 Arctic: oh shoot
 Arctic: there is another kernel update
 Arctic: time to debloat my kernel :)
+%
+Dexter of Ebonheart: I've never had any full on problems with systemd on mint. Just confusion when I tried to do something like `/etc/init.d/disdick restart`
+Dexter of Ebonheart: But I was not a fan of the actual maintenance commands I needed to do things. And I don't like the direction it's heading. So no D for me.
 %
 Dexter of Ebonheart: a small botnet of one million bots
 %
@@ -70,7 +74,7 @@ Phate6660: I JUST HAD THE BIGGEST DERP
            fml
 %
 Dexter of Ebonheart: > "This branch has no conflicts with the base branch"
-Shardion: This branch conflicts with my morals
+       	  	     Shardion: This branch conflicts with my morals
 %
 Phate6660: >implying that netbooks aren't a thing anymore
 Phate6660: Pfffffft, netbooks are too still a thing.
@@ -127,6 +131,22 @@ Shardion: alright sweet. progctl can now read your XDG_CONFIG_HOME environment v
 %
 Tredix: .iam Powershell
 %
+Shardion: <...details about the router he's using...>
+          `OS details: Huawei HG8245T GPON ONU WAP (Linux 2.6.21) or Sagemcom F@st 4350 WAP`
+          Who spilled their alphabet soup?
+          It's running dnsmasq on port 53 (which is open).        
+          Version 2.55.
+          lighttpd on port 80 (no version provided).
+Phate6660: Uh huh, yep, keep going.
+           [Scribbles network info into notepad for when I hack Shardion.]
+           (I'm joking, if it wasn't clearly obvious.)
+The 25th Bam: thanks for making his attention go into you our plan is going great @Phate6660
+              [Scribbles network info into ***VIM*** for when I hack Shardion.]
+              sadly i cant hack him since i dont know how to either save or close VIM
+              *cries in desperation*
+Phate6660: Pfffft, we all know that to close Vim you need to unplug your PC. Duh.
+           <emoji of pepe kek'ing>
+%
 Tredix: am I done with distro-hopping? I think so.
 %
 Tredix: > "the dick only makes it better"
@@ -161,4 +181,24 @@ Shardion: I have the space.
           Why not?
 Phate6660: Does not compute.
 Shardion: Yeah it won't with your puny 512MB swap
+%
+Dexter of Ebonheart: Apt, stop yelling at me, I'm sorry
+%
+Arctic: does the matrix run on emacs?
+dmt: Probably not, no
+dmt: However, there exists an elisp package that will connect your emacs session to the Matrix instance.
+Dexter of Etcetera: The universe is Emacs subjectively experiencing itself
+%
+Phate6660: "Messaging App Signal Is Working on Encrypted Group Video Calls"
+           <https://www.pcmag.com/news/messaging-app-signal-is-working-on-encrypted-group-video-calls>
+gnu/ech: Zoom caused this.
+Arctic: lol
+Phate6660: Zoom needs to fucking die.
+%
+Phate6660: "You should use Y(A)ML."
+           - Some fucking masochist
+%
+Shardion: OpenBSD.
+          Discuss.
+dmt: good shit.
 %
